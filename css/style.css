@@ -7,3 +7,65 @@ html {
 ::before {
     box-sizing: inherit;
 }
+
+.body {
+    max-width: 800px;
+    height: auto;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-size: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section {
+    margin: 10px;
+    box-shadow: 0 0 5px #8a4545;
+}
+
+.newTaskHeader {
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid #151212;
+}
+
+.flex__newTask {
+    margin: 20px;
+    background: #d76855;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #151212;
+}
+
+.flex__tasks {
+    margin: 20px;
+    background: #d76855;
+    max-height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: left;
+    justify-content: center;
+    border: 1px solid #151212;
+}
+
+.list__item {
+    list-style: decimal;
+}
+
+.list__item--done {
+    text-decoration-line: line-through;
+    text-decoration-color: crimson;
+}
+
+.newTask {
+    margin: 50px;
+}
