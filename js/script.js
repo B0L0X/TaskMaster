@@ -47,9 +47,11 @@
                 <li
                     class="tasks__item${task.done ? " tasks__item--done" : ""}"
                 >
-                    <button class="js-done">undone</button>
+                    <button class="tasks__button tasks__button--done js-done">
+                      ${task.done ? "&#x2714" : "&#x2718"}
+                    </button>
                     ${task.content}
-                    <button class="js-remove">del</button>
+                    <button class="tasks__button tasks__button--remove js-remove">🗑️</button>
                 </li>
             `;
         }

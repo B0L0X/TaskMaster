@@ -32,9 +32,9 @@
         </h2>
         <div class="section__body">
             <form class="form js-form">
-                <input class="form__input js-newTask">
+                <input class="form__input js-newTask" placeholder="What to do...">
                 <button class="form__button">
-                    ADD NEW TASK
+                    ADD
                 </button>
             </form>
         </div>
@@ -45,12 +45,14 @@
         </h2>
         <div class="section__body">
             <ul class="tasks js-tasks">
+                <button class="tasks__button tasks__button--done js-done">
+                </button>
                 <li class="tasks__item">
-                    <button class="tasks_button tasks__button--done js-done">
-                        <span class="tasks__item--done">
-                        </span>
-                    </button>
+                    <span class="tasks__item--done">
+                    </span>
                 </li>
+                <button class="tasks__button tasks__button--remove js-remove">
+                </button>
             </ul>
         </div>
     </section>
