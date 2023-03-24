@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="CSS/container.css" rel="stylesheet">
+    <link href="CSS/form.css" rel="stylesheet">
+    <link href="CSS/section.css" rel="stylesheet">
     <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/tasks.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +20,7 @@
         rel="stylesheet">
 </head>
 
-<body class="body">
+<body>
     <header>
         <h1>
             Forget Me Not
@@ -28,8 +32,8 @@
         </h2>
         <div class="section__body">
             <form class="form js-form">
-                <input class="js-newTask">
-                <button class="button">
+                <input class="form__input js-newTask">
+                <button class="form__button">
                     ADD NEW TASK
                 </button>
             </form>
@@ -40,7 +44,14 @@
             Tasks list
         </h2>
         <div class="section__body">
-            <ul class="js-tasks"></ul>
+            <ul class="tasks js-tasks">
+                <li class="tasks__item">
+                    <button class="tasks_button tasks__button--done js-done">
+                        <span class="tasks__item--done">
+                        </span>
+                    </button>
+                </li>
+            </ul>
         </div>
     </section>
     </div>

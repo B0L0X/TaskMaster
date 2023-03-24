@@ -1,0 +1,23 @@
+.tasks {
+    margin: 0;
+    padding: 20px;
+    list-style: disc;
+}
+
+.tasks__item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 5px;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #151212;
+}
+
+.tasks__item--done {
+    text-decoration-line: line-through;
+    text-decoration-color: crimson;
+}
+
+.newTask {
+    margin: 50px;
+}
