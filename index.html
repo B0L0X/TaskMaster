@@ -23,19 +23,23 @@
         </h1>
     </header>
     <section class="section">
-        <h2 class="newTaskHeader">
+        <h2 class="section__header">
             Add new task
         </h2>
-        <div class="flex">
-            <div class="flex__newTask">
-                <form class="js-form">
-                    <input class="js-newTask" size="50">
-                    <button>ADD NEW TASK</button>
-                </form>
-            </div>
+        <div class="section__body">
+            <form class="form js-form">
+                <input class="js-newTask">
+                <button class="button">
+                    ADD NEW TASK
+                </button>
+            </form>
+        </div>
     </section>
     <section class="section">
-        <div class="flex__tasks">
+        <h2 class="section__header">
+            Tasks list
+        </h2>
+        <div class="section__body">
             <ul class="js-tasks"></ul>
         </div>
     </section>
