@@ -18,29 +18,29 @@
     text-decoration-color: crimson;
 }
 
-.tasks__button {}
-
 .tasks__button--done {
-	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
-	background-color:#44c767;
-	border-radius:18px;
-	border:1px solid #18ab29;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:13px;
-	font-weight:bold;
-	padding:7px 10px;
-	text-decoration:none;
+    background: linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+    background-color: #44c767;
+    border-radius: 18px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 7px 10px;
+    text-decoration: none;
 }
+
 .tasks__button--done:hover {
-	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
-	background-color:#5cbf2a;
+    background: linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+    background-color: #5cbf2a;
 }
+
 .tasks__button--done:active {
-	position:relative;
-	top:1px;
+    position: relative;
+    top: 1px;
 }
 
 .tasks__button--remove {
