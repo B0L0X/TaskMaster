@@ -15,55 +15,39 @@
 
 .tasks__item--done {
     text-decoration-line: line-through;
-    text-decoration-color: crimson;
+}
+
+.tasks__button {
+    padding: 10px;
+    background: #3a16ef;
+    color: white;
+    border: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    padding: 0;
 }
 
 .tasks__button--done {
-    background: linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
-    background-color: #44c767;
-    border-radius: 18px;
-    border: 1px solid #18ab29;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 13px;
-    font-weight: bold;
-    padding: 7px 10px;
-    text-decoration: none;
+    background: blue;
 }
 
 .tasks__button--done:hover {
-    background: linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
-    background-color: #5cbf2a;
+    background: rgb(1, 1, 135);
 }
 
 .tasks__button--done:active {
-    position: relative;
-    top: 1px;
+    background: rgb(87, 87, 237);
 }
 
 .tasks__button--remove {
-    background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
-    background-color: #c62d1f;
-    border-radius: 18px;
-    border: 1px solid #d02718;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 17px;
-    padding: 5px 5px;
-    text-decoration: none;
-    text-shadow: 0px 1px 0px #810e05;
+    background: red;
 }
 
 .tasks__button--remove:hover {
-    background: linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
-    background-color: #f24437;
+    background: rgb(111, 1, 1);
 }
 
 .tasks__button--remove:active {
-    position: relative;
-    top: 1px;
+    background: rgb(231, 77, 77);
 }

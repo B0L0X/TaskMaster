@@ -1,25 +1,17 @@
 .form__button {
-    background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
-    background-color: #c62d1f;
-    border-radius: 18px;
-    border: 1px solid #d02718;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 3px 10px;
-    text-decoration: none;
+    padding: 10px;
+    background: #3a16ef;
+    color: white;
+    border: none;
 }
 
 .form__button:hover {
-    background: linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
-    background-color: #f24437;
+    background: #18057b;
+    color: white;
 }
 
 .form__button:active {
-    position: relative;
+    background: #4d2cf3;
     top: 1px;
 }
 

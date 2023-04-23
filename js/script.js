@@ -48,7 +48,7 @@
                     class="tasks__item${task.done ? " tasks__item--done" : ""}"
                 >
                     <button class="tasks__button tasks__button--done js-done">
-                      ${task.done ? "&#x2714" : "&#x2718"}
+                      ${task.done ? "&#x2714" : ""}
                     </button>
                     ${task.content}
                     <button class="tasks__button tasks__button--remove js-remove">🗑️</button>
